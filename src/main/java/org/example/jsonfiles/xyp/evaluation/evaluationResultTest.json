@@ -1,0 +1,45 @@
+{
+    "id": "417",
+    "exam_title": "美国超准的心理测试：看穿你的性格与爱情",
+    "is_radio": "1",
+    "pic_url": null,
+    "is_ueditor": "0",
+    "ueditor_text": null,
+    "results": [
+        {
+            "count": 1,
+            "date": "11.2",
+            "analysis": [
+                {
+                    "a_num": 1,
+                    "a": "你的选择代表你会喜欢怎样的人",
+                    "content": "选择胡子，表示你会钟情于事业成功的类型。"
+                },
+                {
+                    "a_num": 2,
+                    "a": "你的选择代表你是怎样的性情中人",
+                    "content": "加木头和石头"
+                }
+            ]
+        },
+        {
+            "count": 2  ,
+            "date": "1.22",
+            "analysis": [
+                {
+                    "a_num": 1,
+                    "a": "你的选择代表你会喜欢怎样的人",
+                    "content": "选择胡子，表示你会钟情于事业成功的类型。"
+                },
+                {
+                    "a_num": 2,
+                    "a": "你的选择代表你是怎样的性情中人",
+                    "content": "加木头和石头"
+                }
+            ]
+        }
+    ],
+    "rate": 23,
+    "comment_count": 21,
+    "positive_feedback_count": 12
+}
