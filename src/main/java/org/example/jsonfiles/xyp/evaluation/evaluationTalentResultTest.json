@@ -1,0 +1,45 @@
+{
+    "msg": "success",
+    "code": 0,
+    "vo_bzh": {
+        "name": "TEST Name",
+        "addr": "TEST addr",
+        "sex": "1",
+        "in_year": "2001",
+        "in_month": "2",
+        "in_date": "12",
+        "hour": "10",
+        "minute": "11"
+    },
+    "bz_array": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "癸"
+    ],
+    "tg_pic_10": {
+        "癸": {
+            "pic": "https://zhjyshop.oss-cn-hangzhou.aliyuncs.com/Public/bazi_pic/%E5%8D%81%E5%A4%A9%E5%B9%B2%E5%9B%BE%E7%89%87/%E7%99%B8.png"
+        }
+    },
+    "tg_num_people": {
+        "癸": "池塘"
+    },
+    "tiangang_info_list": [
+        {
+            "tg_content": "池塘之水，恬静优美。 小家碧玉，不好高骛远、安于一方平静，有耐心、有韧性；才智高，善于体察他人、观察问题敏锐，喜欢干净整洁。 不易相信别人，对自己和他人要求严格。"
+        },
+        {
+            "tg_content": "有花草鱼虫，环境惬意。 情感细腻，做事认真细致、能安心做好本职工作，注重情调、追求精细高雅的生活品质。 完美主义者，容易钻牛角尖。"
+        },
+        {
+            "tg_content": "范围小。 内向、保守，自我保护意识强。 易受环境污染，易受外界影响，关注面扩大、容易产生安全焦虑。"
+        },
+        {
+            "tg_content": "艺术之才。 适合从事质检、培训、木雕、电脑设计、语言、管理等类的工作。"
+        }
+    ]
+}

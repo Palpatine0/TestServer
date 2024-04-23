@@ -15,8 +15,7 @@ public class TestServiceImpl implements TestService {
     BaseResult baseResult = new BaseResult();
     @Override
     public BaseResult evaluationIntroduceTest() {
-
-        String filePath = "src/main/java/org/example/jsonfiles/evaluationIntroduceTest.json";
+        String filePath = "src/main/java/org/example/jsonfiles/xyp/evaluation/evaluationIntroduceTest.json";
 
         String jsonString = jsonToString(filePath);
         Map<String, Object> dataMap = jsonStringToMap(jsonString);
@@ -27,7 +26,7 @@ public class TestServiceImpl implements TestService {
 
     @Override
     public BaseResult evaluationContentTest() {
-        String filePath = "src/main/java/org/example/jsonfiles/evaluationContentTest.json";
+        String filePath = "src/main/java/org/example/jsonfiles/xyp/evaluation/evaluationContentTest.json";
 
         String jsonString = jsonToString(filePath);
         Map<String, Object> dataMap = jsonStringToMap(jsonString);
@@ -38,7 +37,18 @@ public class TestServiceImpl implements TestService {
 
     @Override
     public BaseResult evaluationResultTest() {
-        String filePath = "src/main/java/org/example/jsonfiles/evaluationResultTest.json";
+        String filePath = "src/main/java/org/example/jsonfiles/xyp/evaluation/evaluationResultTest.json";
+
+        String jsonString = jsonToString(filePath);
+        Map<String, Object> dataMap = jsonStringToMap(jsonString);
+        baseResult.setData(dataMap);
+
+        return baseResult;
+    }
+
+    @Override
+    public BaseResult evaluationTalentResultTest() {
+        String filePath = "src/main/java/org/example/jsonfiles/xyp/evaluation/evaluationTalentResultTest.json";
 
         String jsonString = jsonToString(filePath);
         Map<String, Object> dataMap = jsonStringToMap(jsonString);

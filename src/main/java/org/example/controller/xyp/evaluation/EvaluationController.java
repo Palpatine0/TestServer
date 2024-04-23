@@ -28,4 +28,9 @@ public class EvaluationController {
         return testService.evaluationResultTest();
     }
 
+    @GetMapping("/evaluationTalentResultTest")
+    public BaseResult evaluationTalentResultTest() {
+        return testService.evaluationTalentResultTest();
+    }
+
 }

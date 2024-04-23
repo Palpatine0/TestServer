@@ -6,4 +6,5 @@ public interface TestService {
     BaseResult evaluationIntroduceTest();
     BaseResult evaluationContentTest();
     BaseResult evaluationResultTest();
+    BaseResult evaluationTalentResultTest();
 }
